@@ -4,12 +4,12 @@
 require realpath('./vendor/autoload.php');
 
 use Longman\TelegramBot\Request;
+
+use const App\Config\CONFIG;
 use function App\Weather\getWeatherText;
 
-$config = include('config.php');
-
-$bot_username  = $config['bot_name'];
-$bot_api_key = $config['bot_token'];
+$bot_username  = CONFIG['bot_name'];
+$bot_api_key = CONFIG['bot_token'];
 
 while (true) {
     try {
@@ -27,7 +27,7 @@ while (true) {
                 $message_chat_id = $message->getFrom()->getId();
                 $message_text = $message->getText();
     
-                $weather_text = getWeatherText($message_text, $config['open_weather_map_api_key']);
+                $weather_text = getWeatherText($message_text, CONFIG['open_weather_map_api_key']);
                 
                 $result = Request::sendMessage([
                     'chat_id' => $message_chat_id,
