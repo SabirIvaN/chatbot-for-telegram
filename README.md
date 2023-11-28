@@ -1,4 +1,4 @@
-# The Weather Telegram Chatbot
+# Weather Telegram Chatbot
 
 This is a simple Telegram bot created to display the weather at the user's request.
 
