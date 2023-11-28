@@ -2,7 +2,7 @@
 
 namespace App\Config;
 
-const CONFIGS =  [
+const CONFIG =  [
     'BOT_NAME' => '',
     'BOT_TOKEN' => '',
     'OPEN_WEATHER_MAP_API_KEY' => ''
