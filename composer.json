@@ -18,8 +18,8 @@
     },
     "autoload": {
         "files": [
-            "src/config/config.php",
-            "src/functions/weather.php"
+            "app/config/config.php",
+            "app/functions/weather.php"
         ]
     }
 }

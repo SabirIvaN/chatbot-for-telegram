@@ -1,2 +1,2 @@
 run:
-	php ./src/index.php
+	php ./app/index.php

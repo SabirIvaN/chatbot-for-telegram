@@ -2,6 +2,7 @@
 
 namespace App\Config;
 
+// This constant contains the application configuration
 const CONFIG =  [
     'BOT_NAME' => '',
     'BOT_TOKEN' => '',
