@@ -1,5 +1,5 @@
 {
-    "name": "sabirivan/the_weather_telegram_chatbot",
+    "name": "sabirivan/weather-telegram-chatbot",
     "description": "A chatbot for Telegram, which allows you to find out the weather on request via Open Weather.",
     "keywords": [
         "php",
